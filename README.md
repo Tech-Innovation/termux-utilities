@@ -9,7 +9,7 @@ To install termux, from your android device, google "termux-app github" and clic
 ```bash
 pkg update
 pkg upgrade
-pkg install git
+pkg install -y git
 ```
 
 Now, clone this repository using the following command:
@@ -28,6 +28,30 @@ To install and configure an SSH server on your device, run the following command
 
 ```bash
 bash ssh_server.sh
+```
+
+### Node.js
+
+To install Node.js on your device, run the following command:
+
+```bash
+bash nodejs_install.sh
+```
+
+### PM2
+
+To install PM2 on your device, run the following command:
+
+```bash
+bash pm2_install.sh
+```
+
+### Node-RED
+
+To install Node-RED on your device, run the following command:
+
+```bash
+bash node_red_install.sh
 ```
 
 
